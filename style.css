@@ -1,0 +1,123 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header{
+ background: #222225;
+}
+.header-navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.header-burger{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header-burger__text{
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  margin-right: 16px;
+}
+.header-burger__btn{
+  max-width: 32px;
+  height: 16px;
+  
+}
+.burger-line{
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  
+}
+.burger-line__center{
+  margin: 5px 0;
+  width: 22px;
+  transform: translateX(-5px);
+}
+.header-contacts__language{
+  background: inherit;
+  outline: none;
+  font-size: 10px;
+  border: none;
+  color: #fff;
+  margin-right: 40px;
+}
+option{
+  background: #222225;
+}
+
+.header-contacts__mail{
+font-family: 'Jost', sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+letter-spacing: 0.84px;
+color: #EB5757;
+border-bottom: 1px dashed #EB5757;
+
+}
+
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
