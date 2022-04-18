@@ -265,6 +265,46 @@ cursor: pointer;
   height: 7px;
   background: #E84146;
 }
+.slider{
+  margin-top: 40px;
+  display: flex;
+}
+.slider-img{
+  display: flex;
+  overflow: hidden;
+}
+.slider-img__card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 58px;
+}
+.slider-card__img{
+  min-width: 160px;
+  height: 216px;
+  opacity: .6;
+}
+.slider-card__title{
+font-family: 'Jost', sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+opacity: .6;
+}
+.slider-card__img.active{
+  min-width: 160px;
+  height: 216px;
+  opacity: 1;
+}
+.slider-card__title.active{
+font-family: 'Jost', sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+opacity: 1;
+}
+
 
 
 
